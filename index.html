@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black Jack</title>
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="game-container">
+        <span class="game-title"><button class="button play-btn" onclick="play()">PLAY</button></span>
+        <div class="dealer-card-container"></div>
+        <div class="notice-board">
+            <button class="button hit">HIT</button>
+            <span class='cvalue'>0</span>
+            <button class="button stand">STAND</button>
+        </div>
+        <div class="user-card-container"></div>
+    </div>
+    <script src="index.js" defer></script>
 </body>
 </html>
