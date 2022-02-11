@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+.game-container{
+    background-color: #b1bf43;
+
+    width: 50rem;
+    height: 40rem;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+.game-title {
+    text-align: center;
+    background-color: #909b35;
+    margin: 0;
+    padding: 5px;
+}
+.dealer-card-container{
+    text-align: center;
+}
+.user-card-container {
+    text-align: center; 
+}
+
+.dealer-card, .user-card {
+    width: 9rem;
+    height: 14rem;
+    background: silver;
+    margin: 2px;
+    border-radius: 10%;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+.notice-board {
+    margin: 10px;
+    align-self: center;
+    text-align: center;
+}
+.button {
+    display: inline;
+}
+.hit {
+    float: left;
+    margin-left: 25px;
+    background: #909b35;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1.5rem;
+    width: 6rem;
+    border-radius: 10%;
+}
+.stand {
+    float:right;
+    margin-right: 25px;
+    background: #909b35;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1.5rem;
+    width: 6rem;
+    border-radius: 10%;
+}
+.play-btn {
+font-size: 3rem;
+border-radius: 50%;
+background-color: #909b35;
+width: 10rem;
+}
+.notice{
+    font-size: 25px;
+}
+.cvalue{
+    font-size: 25px;
+}
